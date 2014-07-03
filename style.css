@@ -29,21 +29,22 @@ body {
 	color: #eee;
 }
 
-#background {
-	background: url(http://kidihou.com/wp-content/uploads/2013/09/light-blue-background-1btrk2ng.jpg) repeat 5% 5%;
-	position: absolute;
-	top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 100;
+body {
+	background-image: url(http://kidihou.com/wp-content/uploads/2013/09/light-blue-background-1btrk2ng.jpg);
+    z-index:100;
+    background-size:100%;
+    background-position:0 0;
+
 }
 
-#midground {
+.midground {
 	background: url(http://static.tumblr.com/0e57e4216ba4112cc77ddeeeb157d50f/f2sbqtt/tNrn6f808/tumblr_static_ciyheaqw0bsoss8sc8g0gkgw0.png) repeat 20% 20%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 200;
 }
 
-#foreground {
+.foreground {
 	background: url(http://static.tumblr.com/0e57e4216ba4112cc77ddeeeb157d50f/f2sbqtt/tNrn6f808/tumblr_static_ciyheaqw0bsoss8sc8g0gkgw0.png) repeat 90% 110%;
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
@@ -86,3 +87,6 @@ h2 {
 	color: #eee;
 }
 
+nav {
+    z-index:1000;
+}
