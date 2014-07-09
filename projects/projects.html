@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+<!--         <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+This following line is needed in case of using the default easing option or when using another
+ one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer
+        <script src="vendors/jquery.easings.min.js"></script>
+
+
+<!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+<!--        <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+         -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+        <script src="js/jquery.backgroundPosition.js" type="text/javascript"></script>
+        <script src="script.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            
+                $('.midground').css({backgroundPosition: '100px 50px'});
+                $('.foreground').css({backgroundPosition: '0px 0px'});
+                
+                $('.midground').animate({
+                    backgroundPosition:"(-2000px -10000px)"
+                }, 2410000, 'linear');
+                    
+                $('.foreground').animate({
+                    backgroundPosition:"(-9000px -1000px)"
+                }, 1200000, 'linear');
+                
+                
+            });
+        </script>
+        <title>My past projects</title>
+    </head>
+<!--     <div id="fullpage">
+ -->
+<!--     <div class="section">   -->  
+    <div id="background">
+        <div class="midground">
+            <div class="foreground">
+                <body id='project-wrap'>
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="/index.html">About</a></li>
+                                <li class="active"><a href="/projects">Projects</a></li>
+                                <li><a href="http://www.linkedin.com/in/irinatag">LinkedIn</a></li>
+                                <li><a href="http://www.twitter.com/irinatag">Twitter</a></li>
+
+                            </ul>      
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+
+                     
+                <div id="paragraph-wrap">
+                
+                        <h2>Nibbles</h2>
+                        <h4>Snack delivery service. Designed in Adobe Creative Suite.</h4>
+                        
+                        <h5>Home page</h5>
+                        <img src="assets/Home-page-final-v.7.png" alt="Home page" style="border:none;" height="729" width="720.5"/></a>
+
+                        <h5> Product listings page </h5>
+                        <img src="assets/Product-page-v.5-Final.png" alt="Product listings" style="border:none;" height="920" width="729"/></a>
+                   <script type="text/template" id="newItem">
+            //             <div class="list-item row form-inline">
+            //                 <div class='col-md-12 form-group'>
+            //                     <!-- begin checkbox, label, and save button -->
+            //                     <div class='checkbox not-editing'>
+            //                         <label>
+            //                             <input type="checkbox" name="item-checkbox"/>
+            //                             <span class='item-label'></span>
+            //                         </label>
+            //                     </div>
+            //                     <button class='not-editing edit-btn btn btn-default form-control'>Edit</button>
+            //                     <!-- end checkbox, label, and save button -->
+
+            //                     <!-- These are the hidden edit elements -->
+            //                     <input class='editing edit-text form-control' style='display:none;' type='text' value=''/>
+            //                     <button class='editing save-btn btn btn-success form-control' style='display:none;'>Save</button>
+            //                     <!-- end hidden elements -->
+
+            //                     <a class="twitter-timeline" href="https://twitter.com/irinatag" data-widget-id="476938474428178432">Tweets by @irinatag</a>
+            // <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!--                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            
+            <!-- Indicators -->
+  <!--           <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <!-- <div class="carousel-inner">
+                <div class="item active">
+                <img src="http://images2.fanpop.com/image/photos/13200000/Cute-Dog-dogs-13286656-1024-768.jpg" alt="image1">
+                <div class="carousel-caption">
+                    <h3>Cute pup.</h3>
+                </div>
+                </div> -->
+            <!-- <div class="item">
+                <img src="http://www.dailycuteness.com/wp-content/uploads/2009/06/cute-hedgehog.png" alt="image2">
+                <div class="carousel-caption">
+                    <h3>Cute hedgehog.</h3>
+                </div>
+                </div>
+                <div class="item">
+                <img src="http://www.wallpapersak.com/wp-content/uploads/2014/04/Cute_bear-4.jpg" alt="image3">
+                <div class="carousel-caption">
+                    <h3>Cute bear.</h3>
+                </div>
+                </div> -->
+            <!-- </div>
+
+            <!-- Controls -->
+            <!-- <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span> -->
+            </a>
+            </div> 
+        </div>
+    </div>
+</div>
+</div>
+
+    </body>
+</html>
